@@ -19,12 +19,12 @@ Traditional signature-based defenses struggle to catch zero-day attacks and subt
 
 ## Installation & Usage
 
-Ingest and train on a real network telemetry dataset
-// python threat_model.py production_network_telemetry.csv
-
-Run without a file to auto-generate and train on a synthetic dataset
-// python threat_model.py
-
 **Prerequisites:**
 ```bash
 pip install pandas scikit-learn tensorflow
+
+# Ingest and train on a real network telemetry dataset
+python threat_model.py production_network_telemetry.csv
+
+# Run without a file to auto-generate and train on a synthetic dataset
+python threat_model.py
