@@ -1,4 +1,4 @@
-# Predictive Threat Model## 
+# Predictive Threat Model
 
 What It Does
 This machine learning pipeline uses **TensorFlow**, **Pandas**, and **Scikit-Learn** to ingest network telemetry and classify traffic behavior as benign or malicious. It is designed to process real-world CSV datasets (such as firewall logs or intrusion detection datasets like CICIDS2017) dynamically. If no dataset is provided, it automatically generates and trains on a synthetic telemetry sample. 
